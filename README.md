@@ -73,5 +73,39 @@ The expected output is
 	Pipenv and Pipenv.lock
 	Dockerfile
 
+## Setting up the virtual environment
+
+Install pipenv, to create a virtual environment:
+
+	pip install pipenv
+
+Install dependencies using the requirements file:
+
+	pipenv install -r requirements.txt
+
+Activate the virtual environment:
+
+	pipenv shell
+
+Now run
+
+	python train.py
+to train and save the best model, and
+
+	python predict.py
+	python test.py
+
+to test the saved model on 1 sample
+
+## Dockerization
+
+Build the Docker container:
+
+	docker build -t breast-cancer-diagnostic
+
+Run the Docker container:
+
+	docker run -it -p 9696:9696 breast-cancer-diagnostic:latest
+
 ## Deployment
 	Deployment via cloud could not be completed before time ran out
