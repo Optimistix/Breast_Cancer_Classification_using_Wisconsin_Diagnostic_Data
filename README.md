@@ -60,6 +60,14 @@ The script predict.py can be used to:
 	Load the model
 	Serve it via a web service Flask 
 
+You can execute predict.py and test.py to test the model on a single sample:
+
+python predict.py
+python test.py
+
+The expected output is 
+
+{'malignant': True, 'malignant_probability': 1.0} 
 
 ## Files with dependencies
 	Pipenv and Pipenv.lock
