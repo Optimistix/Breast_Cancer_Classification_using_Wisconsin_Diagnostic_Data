@@ -1,11 +1,10 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-# Breast Cancer Classification using the Prognostic Wisconsin Breast Cancer Database
+# Breast Cancer Classification using the Diagnostic Wisconsin Breast Cancer Database
 
 
 ## Problem Description
-
-
+Breast cancer is a leading cause of death among women, and early diagnosis can be of great value in saving lives and alleviating suffering. An accurate model for classifying samples as benign or malignant can be of immense value.
 
 ## Data
 
