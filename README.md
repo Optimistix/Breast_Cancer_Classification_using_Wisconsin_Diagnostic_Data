@@ -101,11 +101,11 @@ to test the saved model on 1 sample
 
 Build the Docker container:
 
-	docker build -t breast-cancer-diagnostic
+	docker build -t breast_cancer_diagnostic
 
 Run the Docker container:
 
-	docker run -it -p 9696:9696 breast-cancer-diagnostic:latest
+	docker run -it -p 9696:9696 breast_cancer_diagnostic:latest
 
 ## Deployment
 	Deployment via cloud could not be completed before time ran out
