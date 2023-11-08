@@ -56,7 +56,7 @@ The script training.py can be used to:
 	Train the final model
 	Save it to a file using pickle
 
-## Script predict.py (suggested name)
+## Script predict.py 
 The script predict.py can be used to:
 	Load the model
 	Serve it via a web service Flask 
@@ -65,3 +65,6 @@ The script predict.py can be used to:
 ## Files with dependencies
 	Pipenv and Pipenv.lock
 	Dockerfile
+
+## Deployment
+	Deployment via cloud could not be completed before time ran out
