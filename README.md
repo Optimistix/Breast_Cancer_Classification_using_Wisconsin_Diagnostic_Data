@@ -118,4 +118,31 @@ and the expected output is
 {'malignant': True, 'malignant_probability': 1.0}
 
 ## Deployment
-	Deployment via cloud could not be completed before time ran out
+	
+Deployment was carried out using Google Cloud Run
+
+To run the service, go to
+
+https://console.cloud.google.com/run/detail/us-west2/breast-cancer-diagnostic/revisions?project=galvanic-smoke-404607
+
+The URL is 
+
+https://breast-cancer-diagnostic-e7c74nc6ea-wl.a.run.app/
+
+which is specified in
+
+	test_gcloud.py
+
+and once the container is running via Google Cloud Run, you can run
+
+	python test_gcloud.py
+
+to test the saved model on 1 sample
+
+and the expected output is (as before)
+
+{'malignant': True, 'malignant_probability': 1.0}   
+
+Here is a screenshot of the service created on Google Cloud Run:
+
+<img src="https://github.com/Optimistix/Breast_Cancer_Classification_using_Wisconsin_Diagnostic_Data/blob/main/Google_Cloud_Run_Service_Screenshot.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%">
