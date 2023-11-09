@@ -107,5 +107,15 @@ Run the Docker container:
 
 	docker run -it -p 9696:9696 breast_cancer_diagnostic:latest
 
+As before, to test that the prediction app is running properly via Docker, you can type
+
+	python test.py
+
+to test the saved model on 1 sample
+
+and the expected output is
+
+{'malignant': True, 'malignant_probability': 1.0}
+
 ## Deployment
 	Deployment via cloud could not be completed before time ran out
